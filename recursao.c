@@ -7,5 +7,5 @@ int recursao(int a, int b){
 }
 
 int main(){
-    printf("resultado: %d\n", recursao(5, 2));
+    printf("saida: %d\n", recursao(5, 2));
 }
