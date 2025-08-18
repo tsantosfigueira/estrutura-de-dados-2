@@ -12,7 +12,7 @@ typedef struct Jogo{
     char nome[30];
     int anoLancamento;
     char desenvolvedora[30];
-}Jogo; // define-se um novo tipo com o comando typedef  
+}Jogo; // define-se um novo tipo com o comando typedef 
 
 void main(){
     struct Carro car; // criação de variável do tipo struct Carro
