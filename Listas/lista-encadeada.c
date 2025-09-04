@@ -80,6 +80,7 @@ void deleteFromEnd(struct Node** head) {
         *head = NULL;
         return;
     }
+
     while (temp->next->next != NULL) {
         temp = temp->next;
     }

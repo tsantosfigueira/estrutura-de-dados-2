@@ -30,4 +30,6 @@ void main(){
 
     Jogo gearsOfWar = {14, "Gears of War", 2006, "Microsoft"};
     Jogo lastOfUs = {10, "The Last of Us", 2013, "Naughty Dog/Sony"};
+    int i = 1;
+    troca(&i);
 }

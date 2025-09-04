@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 typedef struct Car{
     char marca[50];
@@ -11,7 +12,7 @@ void atualizaAno (Carro *c);
 void main(){
     Carro car = {"BYD", 2026};
     Carro *pcar = &car;
-
+    
     // o acesso aos membros de uma struct através de um ponteiro acontecem com o símbolo ->
     printf("Carro da marca %s de %d\n", pcar->marca, pcar->ano);
 
@@ -22,5 +23,6 @@ void main(){
 }
 
 void atualizaAno (Carro *c){
-    c->ano=2026;
+    c->ano=2027;
+    strcpy(c->marca, "Abelhinha");
 }
